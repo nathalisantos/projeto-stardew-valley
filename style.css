@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor1: rgba(209,248,255,0.67);
+    --corlink: #0645ad;
+}
+
+html {
+    background-image: url('imagens/home/stardewbackground.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#header {
+    background-color: white;
+    width: 100vw;
+    height: 200px;
+}
+
+div#logo-sm {
+    padding-top: 32px;
+    padding-left: 2px;
+    padding-bottom: 31px;
+}
+/*MENU LATERAL*/
+div#menulateral {
+    display: inline-block;
+    background-color: var(--cor1);
+    width: 162px;
+    height: 714px;
+    border: 6px solid transparent;
+    border-image: url('imagens/home/menu_border.png') 15 stretch;
+    margin-left: -6px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+div#menulateral > ul {
+    padding-left: 21px;
+    padding-top: 16px;
+}
+
+div#menulateral > ul > li {
+    line-height: 1.20;
+}
+
+div#menulateral > ul > li > a {
+    color: var(--corlink);
+    text-decoration: none;
+    font-size: 0.75em;
+}
+
+div#menulateral > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+span.spanmenulateral {
+    color: rgb(90, 90, 90);
+    font-size: 0.75em;
+}
+/*FIM DO MENU LATERAL*/
+
+div#principal {
+    display: inline-block;
+    background-color: white;
+}
