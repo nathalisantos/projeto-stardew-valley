@@ -18,6 +18,16 @@ body {
     background-attachment: fixed;
 }
 
+#conteudomain {
+    display: block;
+}
+
+
+
+#div1 {
+    display: inline-block;
+}
+
 div#header {
     background-color: white;
     width: 100vw;
@@ -31,7 +41,6 @@ div#logo-sm {
 }
 /*MENU LATERAL*/
 div#menulateral {
-    display: inline-block;
     background-color: var(--cor1);
     width: 162px;
     height: 714px;
@@ -40,6 +49,7 @@ div#menulateral {
     margin-left: -6px;
     border-radius: 10px;
     text-align: left;
+    display: inline-block;
 }
 
 div#menulateral > ul {
@@ -74,8 +84,6 @@ hr {
 	
 }
 /*FIM DO MENU LATERAL*/
-
-div#principal {
+div#fundo-meio {
     display: inline-block;
-    background-color: white;
 }
