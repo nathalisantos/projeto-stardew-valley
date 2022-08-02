@@ -11,7 +11,8 @@
     --corlink: #0645ad;
 }
 
-html {
+body {
+    background: lightblue;
     background-image: url('imagens/home/stardewbackground.png');
     background-size: cover;
     background-attachment: fixed;
