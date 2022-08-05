@@ -12,10 +12,7 @@
 }
 
 body {
-    background: lightblue;
-    background-image: url('imagens/home/stardewbackground.png');
-    background-size: cover;
-    background-attachment: fixed;
+    background: lightblue url('imagens/home/stardewbackground.png') no-repeat fixed center center / cover;
 }
 
 #conteudomain {
