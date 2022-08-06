@@ -17,11 +17,42 @@ body {
     background-repeat: no-repeat;
 }
 
-#tabela1 {
+main {
+    display: block;
+    margin: auto;
+    background-color: var(--cor1);
+    width: 70vw;
+    height: 900px;
+}
+
+.tabelaa table {
+    text-align: center;
+    margin: auto;
+}
+
+table#tabela1 {
     background-color: var(--cor1);
     padding: 10px;
-    width: 50vw;
+    width: 46vw;
     margin-bottom: 5px;
+}
+
+#head_link {
+    text-decoration: none;
+    color: var(--corlink);
+}
+
+#head_link:visited {
+    color: #032b6b;
+}
+
+#head_link:hover {
+    text-decoration: underline;
+}
+
+#head_link > img {
+    width: 12px;
+    height: 12px;
 }
 
 #tabela > td {
@@ -33,8 +64,66 @@ table#tabela2 {
     text-indent: initial;
     border-spacing: 3px;
     background-color: var(--cor1);
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
+    width: 46vw;
 }
 
+.external_text {
+    display: block;
+    text-decoration: none;
+    background: none;
+    line-height: 60px;
+    font-size: 30px;
+    
+}
+
+#link_steam {
+    background: url('imagens/home/div-plataformas/platform-steam.png') no-repeat center center;
+    width: 125px;
+    height: 63px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+#link_ios {
+    background: url('imagens/home/div-plataformas/platform-ios.png');
+    width: 125px;
+    height: 63px;
+    background-repeat: no-repeat;
+}
+
+#link_play {
+    background: url('imagens/home/div-plataformas/platform-play.png');
+    width: 125px;
+    height: 63px;
+    background-repeat: no-repeat;
+}
+
+#link_switch {
+    background: url('imagens/home/div-plataformas/platform-switch.png');
+    width: 125px;
+    height: 63px;
+    background-repeat: no-repeat;
+}
+
+#link_ps4 {
+    background: url('imagens/home/div-plataformas/platform-ps4.png');
+    width: 125px;
+    height: 63px;
+    background-repeat: no-repeat;
+}
+
+#link_xbox {
+    background: url('imagens/home/div-plataformas/platform-xbox.png');
+    width: 125px;
+    height: 63px;
+    background-repeat: no-repeat;
+}
+
+#link_blog {
+    background: url('imagens/home/div-plataformas/mobile_banner_2_PT.png');
+    width: 376px;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
